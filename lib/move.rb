@@ -12,6 +12,6 @@ def input_to_index(input)
   return i-1
 end
 
-def move(board_array,index,"X")
-  
+def move(board_array,index,player_char ="X")
+  board_array[index] = value
 end
